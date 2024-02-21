@@ -52,9 +52,9 @@ h1{
   @media only screen and (max-width: 700px)
   {
       .container{
-          height: 350px;
+          height: 250px;
           position: relative;
-          top: 50px;
+          top: 10px;
           padding:200px 0px 500px 0px;
       }
       h1{
