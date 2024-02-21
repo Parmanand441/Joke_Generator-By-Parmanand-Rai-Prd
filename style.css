@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: rgb(77, 77, 241);
+  }
+    .container {
+        max-width: 400px; /* Set maximum width */
+        max-height: 480px;
+        margin: 20px auto; /* Center the container horizontally */
+        padding: 20px 20px; /* Add padding to the sides */
+        box-sizing: border-box; /* Include padding in width calculation */
+        border:2px solid black;
+        border-radius: 5%;
+        position: relative;
+        top: 120px;
+}
+img{
+    height: 80px;
+    width: 80px;
+    border: 5px black solid;
+    border-radius: 50%;
+}
+  #joke {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px 20px;
+    padding: 20px;
+  }
+  i{
+      color: yellow;
+      cursor: pointer;
+  }
+  button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  button:hover {
+    background-color: #45a049;
+  }
+  @media only screen and (max-width: 700px)
+  {
+      .container{
+          height: 400px;
+          position: relative;
+          top: 120px;
+          padding:300px 0px 550px 0px;
+      }
+      img{
+          width: 200px;
+          height: 200px;
+          border-radius: 50%;
+          position: relative;
+          top: -150px;
+      }
+ button{
+     margin-top: 10px;
+     font-size: 20px;
+     padding: 10px 20px;
+ }
+  }
