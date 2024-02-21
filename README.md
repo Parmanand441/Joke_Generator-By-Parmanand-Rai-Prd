@@ -5,6 +5,5 @@ https://parmanand441.github.io/Joke_Generator-By-Parmanand-Rai-Prd/
 .
 .
 .
-.
 Here you can see the image!
 ![Capture](https://github.com/Parmanand441/Joke_Generator-By-Parmanand-Rai-Prd/assets/106175480/7784c755-287f-4be4-b641-3e7a84c249b9)
