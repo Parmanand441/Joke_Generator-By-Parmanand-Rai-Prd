@@ -4,15 +4,15 @@ body {
     background-color: rgb(77, 77, 241);
   }
     .container {
-        max-width: 400px; /* Set maximum width */
-        max-height: 480px;
+        max-width: 350px; /* Set maximum width */
+        max-height: 500px;
         margin: 20px auto; /* Center the container horizontally */
         padding: 20px 20px; /* Add padding to the sides */
         box-sizing: border-box; /* Include padding in width calculation */
         border:2px solid black;
         border-radius: 5%;
         position: relative;
-        top: 120px;
+        top: 80px;
 }
 img{
     height: 80px;
@@ -20,13 +20,17 @@ img{
     border: 5px black solid;
     border-radius: 50%;
 }
+h1{
+  font-size: 20px;
+}
   #joke {
-    font-size: 1.5rem;
+    font-size: 15px;
     margin-bottom: 20px;
     border: 2px solid black;
     border-radius: 10px;
     margin: 10px 20px;
     padding: 20px;
+    
   }
   i{
       color: yellow;
@@ -48,10 +52,15 @@ img{
   @media only screen and (max-width: 700px)
   {
       .container{
-          height: 400px;
+          height: 350px;
           position: relative;
-          top: 120px;
-          padding:300px 0px 550px 0px;
+          top: 50px;
+          padding:200px 0px 500px 0px;
+      }
+      h1{
+        font-size: 30px;
+        position: relative;
+        top: -50px;
       }
       img{
           width: 200px;
@@ -61,8 +70,10 @@ img{
           top: -150px;
       }
  button{
-     margin-top: 10px;
+     margin-top: 30px;
      font-size: 20px;
      padding: 10px 20px;
+     
+
  }
   }
