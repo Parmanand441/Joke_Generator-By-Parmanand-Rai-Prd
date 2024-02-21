@@ -52,25 +52,29 @@ h1{
   @media only screen and (max-width: 700px)
   {
       .container{
-          height: 250px;
+          height: 200px;
           position: relative;
           top: 10px;
-          padding:200px 0px 500px 0px;
+          padding:130px 20px 450px 20px;
       }
       h1{
         font-size: 30px;
         position: relative;
-        top: -50px;
+        top: -60px;
+      }
+      #joke{
+        position: relative;
+        top: -30px;
       }
       img{
-          width: 200px;
-          height: 200px;
+          width: 150px;
+          height: 150px;
           border-radius: 50%;
           position: relative;
-          top: -150px;
+          top: -120px;
       }
  button{
-     margin-top: 30px;
+     margin-top: 10px;
      font-size: 20px;
      padding: 10px 20px;
      
